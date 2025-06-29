@@ -74,15 +74,16 @@ const Home: React.FC = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-              <Link to="/projects" className="btn-primary">
-                View My Work
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-              <Link to="/resume" className="btn-secondary">
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume
-              </Link>
-            </div>
+  <Link to="/projects" className="btn-primary flex items-center justify-center">
+    View My Work
+    <ArrowRight className="ml-2 h-5 w-5" />
+  </Link>
+  <Link to="/resume" className="btn-secondary flex items-center justify-center">
+    <Download className="mr-2 h-5 w-5" />
+    Download Resume
+  </Link>
+</div>
+
 
             {/* Scroll Indicator */}
             <div className="animate-bounce">

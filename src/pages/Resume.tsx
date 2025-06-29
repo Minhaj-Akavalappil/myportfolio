@@ -140,7 +140,7 @@ const Resume: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={handleDownload}
-              className="btn-primary"
+              className="btn-primary flex items-center justify-center"
             >
               <Download className="h-5 w-5 mr-2" />
               Download PDF Resume
@@ -149,7 +149,7 @@ const Resume: React.FC = () => {
               href="/Minhaj_Akavalappil_RESUME_SD.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary"
+              className="btn-primary flex items-center justify-center"
             >
               <Eye className="h-5 w-5 mr-2" />
               View Full Version
@@ -391,7 +391,7 @@ const Resume: React.FC = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA Section 
       <section className="section-padding bg-gradient-to-r from-teal-600 to-amber-500">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -416,7 +416,7 @@ const Resume: React.FC = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   );
 };

@@ -382,7 +382,7 @@ The key is choosing based on your specific project requirements and team capabil
         </div>
       </section>
 
-      {/* Newsletter Section */}
+      {/* Newsletter Section 
       <section className="section-padding bg-slate-50">
         <div className="container-custom">
           <div className="max-w-2xl mx-auto text-center">
@@ -410,7 +410,7 @@ The key is choosing based on your specific project requirements and team capabil
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* CTA Section */}
       <section className="section-padding bg-gradient-to-r from-teal-600 to-amber-500">
