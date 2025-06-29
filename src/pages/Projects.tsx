@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ExternalLink, Github, Calendar, Users, Code, Brain, Smartphone, Database } from 'lucide-react';
 
 const Projects: React.FC = () => {
@@ -346,18 +347,18 @@ const Projects: React.FC = () => {
             Let's discuss how these technical skills and project management experience can benefit your organization.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="bg-white text-teal-600 hover:bg-slate-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Start a Conversation
-            </a>
-            <a
-              href="/resume"
+            </Link>
+            <Link
+              to="/resume"
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300"
             >
               Download Resume
-            </a>
+            </Link>
           </div>
         </div>
       </section>

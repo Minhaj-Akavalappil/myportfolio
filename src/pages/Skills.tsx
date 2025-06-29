@@ -1,5 +1,6 @@
 import React from 'react';
-import { Code, PenTool as Tool, Users, Brain, Database, Cloud, Smartphone, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Code, PenTool as Tool, Users, Brain, Database, Cloud, Smartphone, Globe} from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
@@ -287,18 +288,18 @@ const Skills: React.FC = () => {
             Let's discuss how my technical expertise and leadership experience can drive your projects to success.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact"
+            <Link
+                          to="/contact"
               className="bg-white text-teal-600 hover:bg-slate-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Start a Conversation
-            </a>
-            <a
-              href="/projects"
+            </Link>
+            <Link
+                          to="/projects"
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               View My Projects
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Award, Users, Code, TrendingUp, Briefcase } from 'lucide-react';
 
 const Experience: React.FC = () => {
@@ -272,18 +273,18 @@ const Experience: React.FC = () => {
             Let's discuss how my experience in development and leadership can benefit your organization.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="bg-white text-teal-600 hover:bg-slate-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Get In Touch
-            </a>
-            <a
-              href="/projects"
+            </Link>
+            <Link
+              to="/projects"
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               View My Work
-            </a>
+            </Link>
           </div>
         </div>
       </section>

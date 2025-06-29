@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle } from 'lucide-react';
 
 const Contact: React.FC = () => {
@@ -351,18 +352,18 @@ const Contact: React.FC = () => {
             I'm here to help bring your ideas to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="mailto:minhajrahmanakv@gmail.com"
+            <Link 
+              to="mailto:minhajrahmanakv@gmail.com"
               className="bg-white text-teal-600 hover:bg-slate-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Email Me Directly
-            </a>
-            <a
-              href="/resume"
+            </Link>
+            <Link 
+              to="/resume"
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Download Resume
-            </a>
+            </Link>
           </div>
         </div>
       </section>
