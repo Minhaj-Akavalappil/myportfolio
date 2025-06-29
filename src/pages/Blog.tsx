@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Clock, User, ArrowRight, Tag } from 'lucide-react';
+import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
 
 const Blog: React.FC = () => {
   const blogPosts = [
@@ -422,12 +422,12 @@ The key is choosing based on your specific project requirements and team capabil
             Have thoughts on any of these topics? I'd love to hear your perspective and engage in meaningful conversations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
+            {/*<a
               href="/contact"
               className="bg-white text-teal-600 hover:bg-slate-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Start a Conversation
-            </a>
+            </a>*/}
             <a
               href="mailto:minhajrahmanakv@gmail.com"
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300"
